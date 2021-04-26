@@ -1,8 +1,8 @@
 // Modified by Billy Brooke for Principia College's ENGR 442 class in Spring 2021
 // This is for a dual-extruder variant of the JellyBox
 
-#define JELLYBOX_VARIANT_LINE1 "JellyBOX 2 Elementary"
-#define JELLYBOX_VARIANT_LINE2 "cold bed"
+#define JELLYBOX_VARIANT_LINE1 "JellyBOX 2"
+#define JELLYBOX_VARIANT_LINE2 "Dual Extruder, cold bed"
 
 //=============================================================================
 //===========================  JellyBOX Settings     ==========================
