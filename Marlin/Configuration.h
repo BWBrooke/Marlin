@@ -140,7 +140,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "IMADE3D" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "IMADE3D, Billy Brooke" // Who made the changes.
 #define CUSTOM_VERSION_FILE Version_imade3d.h // Path from the root directory (no quotes)
 
 /**
