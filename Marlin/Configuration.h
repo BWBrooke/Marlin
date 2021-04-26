@@ -59,7 +59,7 @@
 #define PROBING_MARGIN 10
 #define MULTIPLE_PROBING 2
 #define EXTRA_PROBING    1
-#define GRID_MAX_POINTS_X 4
+#define GRID_MAX_POINTS_X 5
 #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 #define ABL_BILINEAR_SUBDIVISION
 #define Z_CLEARANCE_BETWEEN_PROBES  4 // Z Clearance between probe points
