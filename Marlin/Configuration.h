@@ -14,7 +14,7 @@
 // #define IMADE3D_CALIBRATE_1ST_LAYER // M822-M825 not implemented in vanilla marlin
 
 #define TEMP_SENSOR_0 1
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_1 1
 
 #define X_NOZZLE_TO_PROBE_OFFSET 27  // X offset: -left  +right  [of the nozzle]
 #define Y_NOZZLE_TO_PROBE_OFFSET 0  // Y offset: -front +behind [the nozzle]
@@ -32,9 +32,9 @@
 #define Z_MAX_POS 160 //note that JellyBOX 1 and 2 have Z_MAX_POS 142
 
 #define HEATER_0_MINTEMP   0
-#define BED_MINTEMP        0
+#define HEATER_1_MINTEMP   0
 #define HEATER_0_MAXTEMP 260
-#define BED_MAXTEMP 90
+#define HEATER_1_MAXTEMP 260
 
 #define Z_PROBE_END_SCRIPT "G0 Z10\nG0 X-8 Y20 F6500"
 
@@ -197,7 +197,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_RAMPS_14_EFB
+  #define MOTHERBOARD BOARD_RAMPS_14_EEF
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -211,7 +211,7 @@
 
 // This defines the number of extruders
 // :[0, 1, 2, 3, 4, 5, 6, 7, 8]
-#define EXTRUDERS 1
+#define EXTRUDERS 2
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
