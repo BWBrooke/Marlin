@@ -3,17 +3,16 @@
 ## Instructions for Use of the ENGR 442 Dual Extrusion Modification
 This modified version has been created in partial completion of the ENGR 442 class at Principia College.  
 This version is designed for a JellyBox 2 modified for dual extrusion with one Bowden-style extruder and one direct drive extruder. The 3D file can be found on the Appropedia page which corresponds to this design.  
-The ENGR 442 class uses Appropedia, so the project page is linked (here)[https://www.appropedia.org/ENGR_442_JellyBox_Dual_Extrusion_Modification].
+The ENGR 442 class uses Appropedia, so the project page is linked [here](https://www.appropedia.org/ENGR_442_JellyBox_Dual_Extrusion_Modification).
 ### Required Components
 * JellyBox
-* Chimera+ (E3D)
+* Chimera + ([E3D](https://e3d-online.com/products/chimera)) ([MatterHackers](https://www.matterhackers.com/store/l/e3d-chimera-air-cooled-dual-extrusion-hotend-17512/sk/M4NYMYKX))
 * Additional NEMA motor
 * New machine profile *instructions below*
-* Bowden extruder and mount
-* Firmware (*this firmware is designed for a 1.0 but can be easily modified for a 2.0 as the only difference is bed height*)
-### Optional Components
-* PTFE Tubing (*we upgraded to Capricorn tubing*)  
-* Zip ties (*two zip ties can take the place of the mount*)
+* [Bowden extruder](https://www.amazon.com/WINSINN-Extruder-Creality-Upgraded-Aluminum/dp/B07SY745CF)
+* Mount for Bowden (*we used two zip-ties*)
+* Firmware (*this is designed for a 1.0 but modifying build volume makes it appropriate for a 2.0*)
+* PTFE Tubing (*we used Capricorn tubing*)  
 ### Creating the New Machine Profile in the Slicer
 Create a machine profile with the following values using a custom FFF in CURA:  
 |Setting|Value|
