@@ -1,3 +1,34 @@
+# ENGR 442 Modification
+This modified version has been created in partial completion of the ENGR 442 class at Principia College.  
+This version is designed for a Jellybox 2 modified for dual extrusion with one Bowden-style extruder and one direct drive extruder. The 3D file can be found on the Appropredia page which corresponds to this design.
+## Instructions for Use
+### Required Components
+* Jellybox (**this firmware is designed for a 1.0 but can be easily modified for a 2.0 as the only difference is bed height**)
+* Chimera 
+* Additional NEMA motor
+* New Slicer Profile
+* Bowden extruder and mount
+### Optional Components
+* PTFE Tubing (**we upgraded to Capricorn tubing**)  
+### Creating the New Slicer Profile
+Create a slicer profile with the following values using the custom FFF page in CURA:  
+|Setting|Value|
+|---|---|
+|X (Width)|180 mm|
+|Y (depth)|165 mm|
+|Z (height)|145 mm|
+|Build Plate Shape|Rectangular|
+|G-Code Flavor|Marlin|
+|X min|0 mm|
+|Y min|0 mm|
+|Z min|0 mm|
+|X max|0 mm|
+|Y max|0 mm|
+|Gantry Height|145 mm|
+|Number of Extruders|2|
+|Start G-Code|**Copy and Paste from the Jellybox2.0 profile**|
+|End G-Code|**Copy and Paste from the Jellybox2.0 profile**|
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
