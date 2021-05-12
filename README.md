@@ -1,15 +1,5 @@
 # Marlin 3D Printer Firmware
 
-![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
-[![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
-
-<img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
-
-Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
-Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
-
 ## Instructions for Use of the ENGR 442 Dual Extrusion Modification
 This modified version has been created in partial completion of the ENGR 442 class at Principia College.  
 This version is designed for a JellyBox 2 modified for dual extrusion with one Bowden-style extruder and one direct drive extruder. The 3D file can be found on the Appropedia page which corresponds to this design.  
@@ -18,12 +8,12 @@ The ENGR 442 class uses Appropedia, so the project page is linked (here)[https:/
 * JellyBox
 * Chimera+ (E3D)
 * Additional NEMA motor
-* New machine profile **instructions below**
+* New machine profile *instructions below*
 * Bowden extruder and mount
-* Firmware (**this firmware is designed for a 1.0 but can be easily modified for a 2.0 as the only difference is bed height**)
+* Firmware (*this firmware is designed for a 1.0 but can be easily modified for a 2.0 as the only difference is bed height*)
 ### Optional Components
-* PTFE Tubing (**we upgraded to Capricorn tubing**)  
-* Zip ties (**two zip ties can take the place of the mount**)
+* PTFE Tubing (*we upgraded to Capricorn tubing*)  
+* Zip ties (*two zip ties can take the place of the mount*)
 ### Creating the New Machine Profile in the Slicer
 Create a machine profile with the following values using a custom FFF in CURA:  
 |Setting|Value|
@@ -40,8 +30,20 @@ Create a machine profile with the following values using a custom FFF in CURA:
 |Y max|0 mm|
 |Gantry Height|145 mm|
 |Number of Extruders|2|
-|Start G-Code|**Copy and Paste from the Jellybox2.0 profile**|
-|End G-Code|**Copy and Paste from the Jellybox2.0 profile**|
+|Start G-Code|*Copy and Paste from the Jellybox2.0 profile**|
+|End G-Code|*Copy and Paste from the Jellybox2.0 profile*|
+
+# Marlin 3D Printer Firmware
+
+![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
+[![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
+
+<img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
+
+Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
+Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
 ## Marlin 2.0
 
